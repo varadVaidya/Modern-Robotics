@@ -1,5 +1,6 @@
 # Modern Robotics
 This repository is to show some of the work done I did in the Coursera specialization Modern Robotics
+No code is added to the Git to honour the Cousera Code of Honour of not sharing the assignment code, especially as these assignments are Peer Graded.
 
 ## Course 2
 This assignment involved to use the Inverse Kinematics alogrithm to find out the joint position required to achieve a desired configration and then animate it using V-Rep.
