@@ -17,11 +17,10 @@ This assignment used the concept of Dynamics of Open Chains to simulate a robot 
     * Chaotic System due to singularity.
     ![Sim2.gif](Sim2.gif?raw=True "Sim2.gif")
 ## Course 4 : Robot Motion Planning and Control
-In this assignment a Probabilistic Road Map was developed to map the given space. The algorithm generated random points in the plane as nodes and created edges based on their feasibility in the map, i.e. if the node was in the obstace region the node was removed from further calculations\
-Similarly if two edges intersected any of the obstacles then that edge connecting those particular nodes were not used for the planning problem.
-
+In this assignment, a Probabilistic Road Map was developed to map the given space. The algorithm generated random points in the plane as nodes and created edges based on their feasibility in the map, i.e. if the node was in the obstacle region the node was removed from further calculations
+Similarly, if two edges intersected any of the obstacles then that edge connecting those particular nodes was not used for the planning problem.
 After the nodes and edges are formed then an A* algorithm to find the optimal path between the start node and the end node.\
-One important point in the implementation is that the the solution reaches optimal as the number of nodes tends to infinity.\
+One important point in the implementation is that the solution reaches optimal as the number of nodes tends to infinity.
 ### Solutions
 The solutions obtained from the algorithm are shown below. N is the total number of the nodes.
 
